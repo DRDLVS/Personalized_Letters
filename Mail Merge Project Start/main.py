@@ -15,6 +15,6 @@ with open("./Input/Names/invited_names.txt", "r") as names_file:
         with open(f"./Output/ReadyToSend/letter_for_{name}.txt", "w") as output_file:
             output_file.write(personalized_letter)
 
- 
+
 
 
